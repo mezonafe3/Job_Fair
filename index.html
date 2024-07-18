@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body class="body-bg">
+    
+<section class="">
+    
+    <div class="container">
+        <div class="head text-center py-2 ">
+            <h1 class="border rounded-5 border-3 py-2 bg-1 text-white">Transaction Monitoring</h1>
+            
+        </div>
+        <div class="row mvh-85 gy-sm-5">
+
+            <div class="col-xl-5 p-3">
+                <div class="h-75">
+                    <canvas id="myChart" class=""></canvas>
+                  </div>
+            </div>
+            
+            <div class="col-xl-5 flex-grow-1 p-3">
+                <div class="h-75">
+                    <canvas id="myChartLine" class=""></canvas>
+                  </div>
+            </div>
+            <div class="col-xl-6 d-flex justify-content-center position-relative align-items-center">
+            
+                <table class="h-300 overflow-y-scroll d-block position-relative rounded-3 overflow-x-hidden">
+                    <div class="icon position-absolute  rounded-circle bg-2 text-white  left-0">
+                        <i class="fa fa-refresh p-3 pointereft-0 top-0" aria-hidden="true"></i>
+                    </div>
+                    <thead class=" ">
+                        <tr class="">
+                            <th class="p-2 px-4  bg-2 text-white">ID</th>
+                            <th class="p-2 px-5 bg-2 text-white">Name</th>
+                            <th  class="p-2 px-5 bg-2 text-white">Date</th>
+                            <th class="p-2 px-5 bg-2 text-white">Amount</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-xl-6  ">
+                <div class="">
+                    <canvas id="myChartDounut" class=""></canvas>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</section>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="assets/JS/jquery-3.7.1.min.js"></script>
+    <script src="assets/JS/chart.js"></script>
+</body>
+</html>

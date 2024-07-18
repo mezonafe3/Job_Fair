@@ -1,0 +1,112 @@
+.fs-60{
+    font-size: 60px;
+}
+.fw-500{
+    font-weight: 500;
+}
+.line-30{
+    line-height: 60px;
+}
+.fs-16{
+    font-size: 16px;
+    color: #777777;
+    font-weight: 400;
+}
+.color{
+    color: #777777;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-35{
+    font-size: 35px;
+}
+.green{
+    background-color: #9eb23b;
+}
+.vh-75{
+    height:80vh;
+}
+.font-sys{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.left-0{
+    left: 0;
+}
+.right-0{
+    right: 0;
+}
+.right-neg50{
+    left: 0;
+}
+.w-20{
+    width: 20%;
+}
+.w-50px{
+    width: 50px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.mvh-85{
+    min-height: 85vh;
+}
+.bg-cyan{
+    background-color:#6987BB ;
+}
+.radius{
+    border-radius: 15px !important;
+}
+
+.bg-1{
+    background-color: #535C91;
+}
+.bg-2{
+    background-color: #1B1A55;
+}
+.h-300{
+    max-height: 300px;
+}
+.pointer{
+    cursor: pointer;
+}
+.body-bg{
+    background-color: #F6F5F2;
+}
+body{
+    overflow-x: hidden;
+}
+table th {
+    position: sticky;
+    top: 0;
+
+}
+table{
+    width: fit-content;
+}
+canvas{
+    min-height: 200px;
+}
+.icon{
+    left:-50px;
+}
+
+.b-top{
+    border-top: 2px solid rgba(128, 128, 128, 0.397);
+}
+
+table::-webkit-scrollbar{
+    background: #443d8b6a;
+    border-radius: 20px;
+}
+table::-webkit-scrollbar-thumb{
+    background-color: #1B1A55;
+    border-radius: 20px;
+}
